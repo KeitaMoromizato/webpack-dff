@@ -5,10 +5,13 @@
   "author": "Keita Moromizato <keita.moromi@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "build": "tsc"
+    "build": "tsc",
+    "pretest": "yarn build",
+    "test": "mocha"
   },
   "devDependencies": {
     "@types/node": "^8.0.2",
+    "mocha": "^3.4.2",
     "typescript": "^2.3.4"
   },
   "dependencies": {

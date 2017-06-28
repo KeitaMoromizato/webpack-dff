@@ -1,5 +1,5 @@
 import { exec } from 'child_process';
-import webpack from 'webpack';
+const webpack = require('webpack');
 
 const prevCommit = '^HEAD';
 const targetCommit = 'HEAD';
